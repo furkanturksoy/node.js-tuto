@@ -8,7 +8,7 @@ app.get("/",function(req,res){
 
 app.get("r/:subreddit/:id/:title", function(){
 
-}) // route parameters
+}) // :subreddit :id :tite are route parameters
 
 app.listen("3000", function(){
     console.log("hello")
