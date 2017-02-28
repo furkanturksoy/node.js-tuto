@@ -7,7 +7,10 @@ app.get("/",function(req,res){
 })
 
 app.get("r/:subreddit/:id/:title", function(){
-
+    var subreddit : req.params.subbreddit
+    var id : req.params.id
+    var title : req.params.title //accessing params
+    
 }) // :subreddit :id :tite are route parameters
 
 app.listen("3000", function(){
