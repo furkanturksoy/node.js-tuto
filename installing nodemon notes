@@ -1,0 +1,5 @@
+npm install -g nodemon
+
+g means it will install globally
+
+start the app "nodemon app"

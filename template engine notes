@@ -1,0 +1,19 @@
+<%= data %> // this syntax is for data
+
+<% for(var i....){ %>
+
+
+<% } %> // this syntax is for statements
+
+
+
+<% list.forEach(function(item){ %>
+
+<%})%> //foreach example
+
+
+
+////////////////////////// partial views /////////////////
+
+
+<% include partials/nav.ejs %> // this syntax includes the partial
